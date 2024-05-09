@@ -1,0 +1,149 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #fff;
+  padding: 0 1rem;
+}
+
+#intro {
+  background-image: url('../images/cover_image.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: -50px;
+}
+
+.intro-content {
+  padding: 5rem 0;
+}
+
+.intro-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.intro-content p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.feature {
+  padding: 3rem;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.feature h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.about {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about li {
+  margin-bottom: 1rem;
+}
+
+.about a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 2rem 0;
+  background-color: #333;
+}
+
+.footer span {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.team-member {
+  margin-bottom: 3rem;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+}

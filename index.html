@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dev Stories</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/social-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Intro Section -->
+    <section id="intro">
+        <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Dev Stories</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="container intro-content text-center">
+            <h1>Welcome to My Dev Stories</h1>
+            <p>Share your coding journey with the world</p>
+            <a href="#" class="btn btn-primary">Go to My Dev Stories</a>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features">
+        <div class="container">
+            <h2 class="text-center mb-4"><strong>Key Features</strong></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <img src="images/post_list.jpg" alt="Create and Publish Stories" class="img-fluid">
+                        <h3>Create and Publish Stories</h3>
+                        <p>Enable users to create and publish their coding stories</p>
+                        <p>Include features for formatting text, adding images, and embedding code snippets</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <img src="{% static 'images/feature2.jpg' %}" alt="Feature 2" class="img-fluid">
+                        <h3>Comment System</h3>
+                        <p>Allow users to comment on stories.</p>
+                        <p>Implemented a threaded comment system for discussions</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <img src="{% static 'images/feature3.jpg' %}" alt="Feature 3" class="img-fluid">
+                        <h3>User Authentication and Authorization</h3>
+                        <p>Allow users to create accounts and log in securely</p>
+                        <p>Implement different user roles (e.g., admin, regular user) with appropriate permissions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center mb-4"><strong>About My Dev Stories</strong></h2>
+            <div class="card mb-3">
+                <img src="images/dev_stories.jpg" class="card-img-top img-fluid" style="max-height: auto; max-width: 100%;" alt="About My Dev Stories">
+                <div class="card-body">
+                    <p class="card-title">"My Dev Stories" is not just another blog; it's a dynamic platform where the journeys of software engineers come to life.</p>
+                    <p class="card-text">In a world where code drives innovation, "My Dev Stories" stands tall as a beacon of inspiration and education.</p>
+                    <p class="card-text">Delve into the experiences, challenges, and triumphs of fellow engineers, and you'll find a treasure trove of wisdom waiting to be unearthed.</p>
+                    <p class="card-text">From battling bugs to celebrating breakthroughs, these stories offer invaluable insights into the art and science of software development.</p>
+                    <p class="card-text">Explore diverse problem-solving methods, cutting-edge coding techniques, and battle-tested project management strategies.</p>
+                    <p class="card-text">Discover the tools, technologies, and frameworks that power real-world projects, and watch as your knowledge and expertise soar to new heights.</p>
+                    <p class="card-text">Join us at "My Dev Stories", where every line of code tells a tale worth sharing.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center mb-4"><strong>Team Members</strong></h2>
+                    <div class="team-member">
+                        <h3>Peter Brian Mwangi</h3>
+                        <ul class="social-icons">
+                            <li><a href="https://www.linkedin.com/in/peter-brian-3b3199264/"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/Peter-Mwangi254"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://twitter.com/pm6093628"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <br>
+                    <h3>Nickson Rop</h3>
+                    <div class="team-member">
+                        <ul class="social-icons">
+                            <li><a href="https://www.linkedin.com/in/nickson-rop-658749190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/nicky-ops"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://twitter.com/nickyrutto"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center mb-4"><strong>Project Repository</strong></h3>
+                    <a href="https://github.com/nicky-ops/dev-stories">GitHub Repository <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <span>&copy; 2024 My Dev Stories</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
